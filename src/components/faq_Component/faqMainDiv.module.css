@@ -1,0 +1,129 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:"20px"
+}
+
+
+
+.header{
+ display: flex;
+ justify-content: center;
+ flex-direction: row;
+}
+
+.divOfQuestions{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.plusMinusIconStyles:hover{
+    cursor: pointer;
+}
+
+.question{
+    font-weight: 700;
+    padding: "10px";
+     display: "flex"
+}
+
+.question:hover{
+    cursor: pointer;
+    color: blueviolet;
+
+}
+
+
+
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .FAQMainDiv{
+        border-radius: 15px;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        align-items: start;
+        top: 100px;
+        min-height: 40vw;
+        width: 60%;
+        position: absolute;
+        background-color: white;
+    
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .FAQMainDiv{
+        border-radius: 15px;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        align-items: start;
+        top: 100px;
+        min-height: 40vw;
+        width: 60%;
+        position: absolute;
+        background-color: white;
+    
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .FAQMainDiv{
+        border-radius: 15px;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        align-items: start;
+        top: 100px;
+        min-height: 40vw;
+        width: 35%;
+        position: absolute;
+        background-color: white;
+    
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .FAQMainDiv{
+        border-radius: 15px;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        align-items: start;
+        top: 100px;
+        min-height: 40vw;
+        width: 35%;
+        position: absolute;
+        background-color: white;
+    
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .FAQMainDiv{
+        border-radius: 15px;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        align-items: start;
+        top: 100px;
+        min-height: 40vw;
+        width: 35%;
+        position: absolute;
+        background-color: white;
+    
+    }
+ }
+
+
